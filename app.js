@@ -7,15 +7,15 @@ let dataStore = {
 }
 console.log(dataStore)
 
-form.addEventListener("submit", event => {
-    // event.preventDefault()
-    console.log(event)
-    console.log(event.target[0].value)
-    console.log(event.target[1].value)
-    dataStore.email = event.target[0].value
-    dataStore.password = event.target[1].value
-    console.log(dataStore)
-})
+// form.addEventListener("submit", event => {
+//     // event.preventDefault()
+//     console.log(event)
+//     console.log(event.target[0].value)
+//     console.log(event.target[1].value)
+//     dataStore.email = event.target[0].value
+//     dataStore.password = event.target[1].value
+//     console.log(dataStore)
+// })
 
 // URL Query Parameter Notes from Day Ahead
 
